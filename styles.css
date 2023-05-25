@@ -1,0 +1,554 @@
+/* Reset some default styles for better consistency */
+body, figure, h1, h2, h3, h4, h5, h6, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Navigation styles */
+/* Navigation styles */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins' , sans-serif;
+}
+body{
+  background-image: url(pfp.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 10px;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+.logo {
+  position: relative;
+  font-size: 25px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+.navbar a {
+  display: inline-block;
+  font-size: 25px;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 35px;
+  font-weight: 500;
+  transition: all .3s;
+}
+.navbar a:hover {
+  color: #ffc107;
+}
+.sub-header {
+  background-color: #1f272b;
+  position: relative;
+  z-index: 1111;
+  padding: 20px 0;
+
+}
+.sub-header .left-content {
+  text-align: left;
+}
+
+.sub-header .right-icons ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: right;
+}
+
+.sub-header .right-icons ul li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.sub-header .right-icons ul li a {
+  color: #000000;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.sub-header .right-icons ul li a:hover {
+  color: orange; /* Change the hover color to orange */
+}
+
+/* Main section styles */
+.video-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 100px 0;
+  text-align: center;
+  color: #ffffff;
+}
+
+.video-overlay .caption {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.video-overlay h6 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.video-overlay h2 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.video-overlay p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.video-overlay .main-button-red {
+  margin-top: 30px;
+}
+
+.video-overlay .main-button-red .scroll-to-section a {
+  display: inline-block;
+  background-color: orange;
+  color: #ffffff;
+  padding: 10px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: background-color 0.3s ease;
+}
+
+.video-overlay .main-button-red .scroll-to-section a:hover {
+  background-color: #ff6600;
+}
+
+/* Content section styles */
+.content-a {
+  background-color: #f8f8f8;
+  padding: 50px 0;
+  text-align: center;
+  color: #000000;
+}
+.education,
+.teacher,
+.students {
+  margin-bottom: 30px;
+}
+
+.education h4,
+.teacher h4,
+.students h4 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.education p,
+.teacher p,
+.students p {
+  font-size: 16px;
+}
+
+/* Apply now section styles */
+#apply-now {
+  background-color: #f8f8f8;
+  padding: 50px 0;
+  text-align: center;
+  color: #000000;
+}
+
+.div6,
+.div7,
+.div8 {
+  margin-bottom: 30px;
+}
+
+.div6 h3,
+.div7 h3,
+.div8 h5 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.div6 p,
+.div7 p,
+.div8 p {
+  font-size: 16px;
+}
+
+.div6 .button,
+.div7 .button {
+  display: inline-block;
+  background-color: orange;
+  color: #ffffff;
+  padding: 10px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+  }
+  .div6 .button,
+  .div7 .button {
+    display: inline-block;
+    background-color: orange;
+    color: #ffffff;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+  }
+
+  .div6 .button:hover,
+  .div7 .button:hover {
+    background-color: #ff6600;
+  }
+
+  .div8 h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .div8 p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .div8 a {
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .div8 a:hover {
+    color: orange;
+  }
+
+  /* Meetings section styles */
+  #meetings {
+    padding: 50px 0;
+    text-align: center;
+    color: #000000;
+  }
+
+  #meetings h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .div1 h5 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .div1 p {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
+
+  .div1 .button {
+    display: inline-block;
+    background-color: orange;
+    color: #ffffff;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+  }
+
+  .div1 .button:hover {
+    background-color: #ff6600;
+  }
+
+  .parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+  }
+
+  .div2,
+  .div3,
+  .div4,
+  .div5 {
+    flex-basis: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .div2 .absolute,
+  .div3 .absolute,
+  .div4 .absolute,
+  .div5 .absolute {
+    position: relative;
+  }
+
+  .div2 figure,
+  .div3 figure,
+  .div4 figure,
+  .div5 figure {
+    margin: 0;
+  }
+
+  .div2 img,
+  .div3 img,
+  .div4 img,
+  .div5 img {
+    width: 100%;
+    height: auto;
+  }
+
+  .div2 figcaption,
+  .div3 figcaption,
+  .div4 figcaption,
+  .div5 figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    color: #ffffff;
+    width: 100%;
+  }
+
+  .div2 figcaption span,
+  .div3 figcaption span,
+  .div4 figcaption span,
+  .div5 figcaption span {
+    display: block;
+    font-size: 16px;
+    text-align: center;
+  }
+  .div2 figcaption span,
+    .div3 figcaption span,
+    .div4 figcaption span,
+    .div5 figcaption span {
+      display: block;
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .div2 figcaption span:nth-child(2),
+    .div3 figcaption span:nth-child(2),
+    .div4 figcaption span:nth-child(2),
+    .div5 figcaption span:nth-child(2) {
+      font-weight: normal;
+    }
+
+    /* Footer styles */
+    footer {
+      background-color: #f8f8f8;
+      padding: 30px 0;
+      text-align: center;
+      color: #000000;
+    }
+
+    footer p {
+      margin-bottom: 10px;
+    }
+
+    footer ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    footer ul li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    footer ul li a {
+      color: #000000;
+      text-decoration: none;
+    }
+
+    footer ul li a:hover {
+      color: orange;
+    }
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+* {
+  box-sizing: border-box;
+}
+.main-banner {
+  position: relative;
+  max-height: 100%;
+  overflow: hidden;
+  margin-bottom: -7px;
+}
+section{
+  display: block;
+}
+#meetings {
+  padding: 50px;
+  text-align: center;
+}
+
+#meetings h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.div1 {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.div1 h5 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.div1 p {
+  margin-top: 10px;
+}
+
+.div2, .div3, .div4, .div5 {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.div2, .div3, .div4 {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #fff;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.image1 {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+figcaption {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+/* Apply now section styles */
+#apply-now {
+  padding: 50px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.div6, .div7 {
+  margin-bottom: 20px;
+}
+
+.div6 h3, .div7 h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.div6 p, .div7 p {
+  margin-bottom: 10px;
+}
+
+.div8 h5 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #775706;
+  margin-bottom: 10px;
+}
+
+.div8 h3 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+div8 p {
+  margin-bottom: 10px;
+  }
+  
+  .div8 a {
+  color: #333;
+  text-decoration: none;
+  }
+  
+  .container {
+  padding: 10px;
+  }
+  
+  #home {
+  padding: 30px;
+  }
+  
+  .div1, .div2, .div3, .div4, .div5 {
+  padding: 10px;
+  margin-bottom: 20px;
+  }
+  
+  .div2, .div3, .div4 {
+  position: static;
+  }
+  
+  .absolute {
+  position: static;
+  display: block;
+  margin-top: 10px;
+  }
+  
+  #apply-now {
+  padding: 30px;
+  }
+  
